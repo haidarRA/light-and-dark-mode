@@ -1,0 +1,84 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.body {
+    transition: all 0.4s;
+}
+
+.top-section {
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;;
+}
+
+.top-text {
+    /*border: 2px solid black;*/
+    text-align: center;
+    width: 500px;
+}
+
+#dark {
+    position: relative;
+    bottom: 0px;
+    transition: all 0.4s;
+    color: rgba(255, 255, 255, 0);
+    opacity: 0;
+}
+
+#light {
+    position: relative;
+    bottom: 0px;
+    color: #000000;
+    transition: all 0.4s;
+}
+
+
+#dark-header {
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+#light-header {
+    margin-bottom: -27px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.button-switch {
+    border: 2px solid #66aaff;
+    background-color: #66aaff;
+    height: 40px;
+    width: 100px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.button-ball, .button-ball2, .button-ball3, .button-ball4 {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border-radius: 45px;
+    position: relative;
+    left: 3px;
+    transition: all 0.4s ease-in-out;
+}
+
+.button-ball {
+    z-index: 1;
+}
+
+.button-ball2, .button-ball3, .button-ball4 {
+    z-index: 2;
+    position: absolute;
+    left: 721px;
+}
